@@ -17,6 +17,7 @@ const Main = lazy(() => import("./components/Main"));
 export class App extends Component {
   render() {
     let load = suspenseFallbackLoader()
+    console.log("asd")
     return (
       <div className="App">
         <Router>
