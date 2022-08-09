@@ -18,6 +18,7 @@ export class App extends Component {
   render() {
     let load = suspenseFallbackLoader()
     console.log("asd")
+    console.log("asd")
     return (
       <div className="App">
         <Router>
